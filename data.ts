@@ -64,10 +64,11 @@ export const projects: Project[] = [
     ],
 
     gallery: [
-      "/images/projects/smart-vts/Rancangan.png",
+      "/images/projects/smart-vts/Rancangan.png", "/images/projects/smart-vts/Rancangan1.png",
     ],
 
     github: "https://github.com/RizkyResiJulian/Project-SMART-VTS-",
+    live: "https://youtu.be/uiYMI_LAXcU",
   },
 
   {
@@ -164,7 +165,8 @@ export const projects: Project[] = [
       "/images/projects/sibonpasbi/sibonpasbi.png",
     ],
 
-    github: "https://github.com/rizkyresijulian",
+    github: "https://github.com/RizkyResiJulian/sibonpasbi.lapascirebon.com",
+    live: "https://sibonpasbi.lapascirebon.com/",
   },
 
   {
@@ -213,7 +215,7 @@ export const projects: Project[] = [
       "/images/projects/iot/iot.jpeg",
     ],
 
-    github: "https://github.com/rizkyresijulian",
+    github: "https://github.com/RizkyResiJulian",
   },
 ];
 

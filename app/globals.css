@@ -1784,7 +1784,8 @@ body::before {
 }
 
 .side-box {
-  position: sticky;
+  position: static;
+  align-self: start;
 
   top: 110px;
 
@@ -2280,7 +2281,7 @@ body::before {
   background: rgba(255,255,255,.015);
   padding: 28px;
   height: max-content;
-  position: sticky;
+  position: static;
   top: 110px;
 }
 
@@ -2352,4 +2353,22 @@ body::before {
     gap: 50px;
   }
 
+}
+
+/* =========================================================
+   PROJECT LINKS
+========================================================= */
+
+.side-box .view {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.side-box .github-link {
+  margin-top: 24px;
+}
+
+.side-box .live-link {
+  margin-top: 14px;
 }

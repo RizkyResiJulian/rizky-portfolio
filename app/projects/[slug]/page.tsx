@@ -371,40 +371,36 @@ export default async function ProjectPage({
               </div>
 
 
-              {/* =================================
-                  GITHUB
-              ================================= */}
+            {/* =================================
+                GITHUB
+            ================================= */}
 
-              {project.github && (
-
-                <a
-                  className="view"
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  VIEW GITHUB →
-                </a>
-
-              )}
+            {project.github && (
+            <a
+                className="view github-link"
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                VIEW GITHUB →
+            </a>
+            )}
 
 
-              {/* =================================
-                  LIVE PROJECT
-              ================================= */}
+            {/* =================================
+                LIVE PROJECT
+            ================================= */}
 
-              {project.live && (
-
-                <a
-                  className="view"
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  VIEW LIVE PROJECT →
-                </a>
-
-              )}
+            {project.live && (
+            <a
+                className="view live-link"
+                href={project.live}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LINK TO PROJECT →
+            </a>
+            )}
 
             </aside>
 
