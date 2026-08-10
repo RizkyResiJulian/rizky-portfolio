@@ -1612,21 +1612,153 @@ body::before {
   margin: 25px 0;
 }
 
+/* =========================================================
+   PROJECT CASE COVER
+========================================================= */
+
 .case-cover {
-  aspect-ratio: 16 / 7;
+  width: 100%;
+  height: auto;
 
-  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 
+  overflow: visible;
+
+  background: transparent;
   border: 1px solid var(--line);
 
-  background: #0a0d11;
+  margin-bottom: 90px;
 }
 
-.case-cover img {
-  width: 100%;
-  height: 100%;
 
-  object-fit: cover;
+/* GAMBAR UTAMA */
+
+.case-cover img {
+  display: block;
+
+  width: auto;
+  height: auto;
+
+  max-width: 100%;
+  max-height: none;
+
+  object-fit: contain;
+
+  border: none;
+}
+
+
+/* =========================================================
+   KHUSUS PROJECT SIMKOP
+========================================================= */
+
+.case-cover.project-simkop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 300px;
+
+  padding: 0 px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+.case-cover.project-simkop img {
+  display: block;
+
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+
+  object-fit: contain;
+}
+
+
+/* =========================================================
+   KHUSUS PROJECT AI VTS
+========================================================= */
+
+.case-cover.project-ai-petugas-vts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 300px;
+
+  padding: 0 px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+.case-cover.project-ai-petugas-vts img {
+  display: block;
+
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   KHUSUS PROJECT SIBONPASBI
+========================================================= */
+.case-cover.project-bon-barang-keuangan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 300px;
+
+  padding: 0 px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+.case-cover.project-bon-barang-keuangan img {
+  display: block;
+
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   KHUSUS PROJECT IOT
+========================================================= */
+.case-cover.project-bon-iot-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 300px;
+
+  padding: 0 px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+.case-cover.project-bon-iot-project img {
+  display: block;
+
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+
+  object-fit: contain;
 }
 
 .case-grid {

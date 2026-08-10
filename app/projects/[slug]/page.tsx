@@ -104,13 +104,11 @@ export default async function ProjectPage({
 
               {/* PROJECT IMAGE */}
 
-              <div className="case-cover">
-
+              <div className={`case-cover project-${project.slug}`}>
                 <img
-                  src={project.image}
-                  alt={project.title}
+                    src={project.image}
+                    alt={project.title}
                 />
-
               </div>
 
 
