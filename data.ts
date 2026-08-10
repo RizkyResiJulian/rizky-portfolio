@@ -1,5 +1,5 @@
 export const projects=[
-{slug:'ai-petugas-vts',number:'01',title:'SMART VTS',desc:'Voice-based AI assistant for Vessel Traffic Service operations using speech recognition, NLP and intent classification.',image:'/images/projects/rancangan.png',tags:['Python','NLP','TF-IDF','Naive Bayes','gTTS','MySQL']},
+{slug:'ai-petugas-vts',number:'01',title:'SMART VTS',desc:'Voice-based AI assistant for Vessel Traffic Service operations using speech recognition, NLP and intent classification.',image:'/images/projects/Rancangan.png',tags:['Python','NLP','TF-IDF','Naive Bayes','gTTS','MySQL']},
 {slug:'simkop',number:'02',title:'Sistem Informasi KDKMP',desc:'Web-based Cooperation for operational reporting and data management.',image:'/images/projects/simkop.png',tags:['PHP','HTML','CSS','MySQL','XAMPP']},
 {slug:'bon-barang-keuangan',number:'03',title:'SIBONPASBI',desc:'Information system for managing goods, finance and administrative reporting in an operational environment.',image:'/images/projects/sibonpasbi.png',tags:['PHP','MySQL','Excel','Web']},
 {slug:'iot-project',number:'04',title:'Robotics & IoT',desc:'IoT prototype combining sensors, microcontrollers and a web-based monitoring concept.',image:'/images/projects/iot.jpeg',tags:['Arduino','IoT','Sensors','Web']}
