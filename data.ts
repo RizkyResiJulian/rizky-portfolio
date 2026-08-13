@@ -222,6 +222,32 @@ export const projects: Project[] = [
 
 export const experiences = [
   {
+    company: "Koperasi Desa Kelurahan Merah Putih — PT Agrinas Nusantara",
+    role: "Manager KDKMP",
+    date: "Agustus 2026 — Now",
+    logo: "/images/logos/kdkmp.png",
+    tags: [
+      "Management",
+      "Leadership",
+      "Team Coordination",
+      "Problem Solving",
+    ],
+  },
+  
+  {
+    company: "SPPI KDKMP — Kemenhan & Kemenkop",
+    role: "Pelatihan Managerial KDKMP",
+    date: "Juni 2026 — Juli 2026",
+    logo: "/images/logos/sppi.jpg",
+    tags: [
+      "Management",
+      "Leadership",
+      "Team Coordination",
+      "Problem Solving",
+    ],
+  },
+
+  {
     company: "Maganghub — Kementerian Ketenagakerjaan",
     role: "Pengelola Fasilitas Umum",
     date: "NOV 2025 — MEI 2026",
